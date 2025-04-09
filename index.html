@@ -293,6 +293,23 @@ video {
     width: 100%;
     height: auto;
 }
+
+.photo-section {
+      background: #fff;
+      padding: 40px 20px;
+      margin: 40px auto;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .photo-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
   </style>
 </head>
 <body>  
@@ -325,18 +342,16 @@ video {
             <div class="phone me-3">996 772 287 036</div>
           </div>
         </div>
-
+      </section>
+    </header>
+    <section class="photo-section">
+  
+  <img src="pupul.jpg" alt="Фото" />
+</section>
       </div>
     </nav>
   </header>
-  <section id="video-lessons-section" class="video-lessons-section container">
-    <div class="big-video">
-        <video controls>
-            <source src="next.mp4" type="video/mp4">
-            Ваш браузер не поддерживает воспроизведение видео.
-        </video>
-    </div>
-</section>
+ 
   <section id="photos" class="gallery-section">
     <h2>СУРОТТОР</h2>
     <div class="gallery">
@@ -414,7 +429,14 @@ video {
       </ul>
     </div>
   </section>
-
+  <section id="video-lessons-section" class="video-lessons-section container">
+    <div class="big-video">
+        <video controls>
+            <source src="next.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+    </div>
+</section>
   <section id="search me" class="section container">
     <h2>Байланыш туйундору</h2>
     <ul class="goals list-unstyled d-flex justify-content-center flex-wrap gap-3">
